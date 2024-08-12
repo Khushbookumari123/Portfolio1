@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>portfoliyo</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet " href="contact.css">
+    <script defer src="contact.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+<body>
+    <header class="header">
+        <img src="portt.png" class="port">
+        <a href="#" class="logo1">Portfoliyo</a>
+        <nav class="navbar">
+                <a href="myself.html"> Home </a> 
+                <a href="myself.html #about1"> About </a> 
+                <a href="Skill.html"> Skill  </a> 
+                <a href="#projects"> Project </a> 
+                <a href="myself.html"> Contact </a> 
+        </nav> 
+    </header>
+<section class="contact">
+    <div class="container">
+        <h2><u>Contact Us</u></h2>
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <h3>Send us a message</h3>
+                <form>
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="email" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="number" name="number" placeholder="Your Phone No.">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn" onclick="openPopup()">Send Message</button>
+
+                    <div class="popup" id="popup">
+                        <img src="tick.png" alt="">
+                        <h2>Thank You!</h2>
+                        <p>Your Details has been successfully submitted.Thanks!</p>
+
+                        <button type="button" onclick="closePopup()">OK</button>
+                        
+                    </div>
+
+                    
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p> <i class="fas fa-phone"></i>+1 123 456 789</p>
+                <p><i class="fas fa-envelope"></i>info@example.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Street,Dehri,India</p>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+
+</body>
+</html>
